@@ -1,0 +1,24 @@
+# Ignore build output
+bin/
+obj/
+*.user
+*.suo
+*.tmp
+*.log
+*.vs
+*.vscode
+*.db
+*.DS_Store
+*.exe
+*.dll
+*.pdb
+# Ignore publish output
+[Ll]oraViewerApp*/publish/
+# Ignore OS files
+Thumbs.db
+Desktop.ini
+instruction-plan-zh.md
+# 忽略 config.json 文件
+config.json
+
+TestingLora/*.safetensors
